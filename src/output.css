@@ -607,6 +607,10 @@ video {
   display: grid;
 }
 
+.h-28 {
+  height: 7rem;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -674,6 +678,10 @@ video {
 
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-gray-200 {
@@ -827,6 +835,10 @@ video {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:h-full {
+    height: 100%;
   }
 
   .md\:w-1\/5 {
