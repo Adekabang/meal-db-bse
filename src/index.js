@@ -18,13 +18,13 @@ async function search(keyword) {
       meals.forEach(meal => {
         // const itemCard = `<div class="result-item"><img src="${meal.strMealThumb}" alt="${meal.strMeal}"><span>${meal.strMeal}</span></div>`
         const itemCard = `<div class="w-full sm:w-2/5 lg:w-1/5 m-2 bg-white border border-gray-200 rounded-lg shadow">
-        <a href="${meal.strSource}">
+        <a href="${meal.strSource}" target="_blank">
             <img class="rounded-t-lg mx-auto"
                 src="${meal.strMealThumb}"
                 alt="${meal.strMeal}" />
         </a>
         <div class="p-2">
-            <a href="${meal.strSource}">
+            <a href="${meal.strSource}" target="_blank">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 text-center">${meal.strMeal}</h5>
             </a>
         </div>
